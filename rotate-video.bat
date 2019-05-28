@@ -17,7 +17,7 @@ echo Rotate
 echo 1. 90 CW (default)
 echo 2. 90 CCW
 echo 3. 180 CW
-CHOICE /T 5 /C 123 /D 1 /N
+CHOICE /C 123 /D 1 /N
 call goto %ERRORLEVEL%
 :1
 set OUTPUT_PREFIX=90cw
